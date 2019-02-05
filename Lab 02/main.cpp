@@ -27,11 +27,11 @@ void delete_first()
    delete temp;
 }
 int main() { 
-   insert(3);
    insert(1);
-   insert(7);
    insert(2);
-   insert(9);
+   insert(3);
+   insert(4);
+   insert(5);
    cout << "The linked list is: ";
    display(); 
    delete_first();
