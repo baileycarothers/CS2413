@@ -13,7 +13,6 @@ int main()
 	adder1.get(1); //Return the number in the first slot
 	adder1.set(1,9); //Set the number in the first slot to 9
 	adder1.printNums(); //Print out our numbers again to verify the change
-
 	//Declare a second adder initialized to 6 and 9
 	Adder adder2(6,9);
 	adder2.printNums(); //Print nums back out to check for correct initialization
