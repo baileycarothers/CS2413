@@ -5,21 +5,16 @@ Email: Bailey.carothers@ttu.edu
 Description: The purpose of this program is to demonstrate proficiency with classes.
 			 The Adder class can perform basic math operations and change its members
 */
-
 #include <string>
 #include <iostream>
 #include <string.h>
 using namespace std;
-
 class Adder {
-
 //Access Specifier
 public:
-
 //Data members
 int first;
 int second;
-
 Adder();
 Adder(int x, int y);
 void printNums();

@@ -1,8 +1,5 @@
-//#include "Adder.h"
 #include "Adder.cpp"
-
 int main()
-
 {
 	//For our first Adder class, we initiate it with no variables
 	//Which defaults it to 2 and 2

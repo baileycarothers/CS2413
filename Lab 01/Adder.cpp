@@ -1,5 +1,4 @@
 #include "Adder.h"
-
 //Standard initialization to 2 and 2
 Adder::Adder()
 {
