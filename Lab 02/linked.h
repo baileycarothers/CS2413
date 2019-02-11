@@ -16,6 +16,6 @@ public:
 	//Function prototypes
 	void insert(int newNum);
 	void display();
-	void delete_first();
+	void delete_first_num();
 }; 
 struct Node* head = NULL;
