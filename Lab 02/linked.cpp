@@ -1,10 +1,20 @@
 #include "linked.h"
 //Function that allows main to insert numbers into the linked list
 void Node::insert(int new_data) { 
-   struct Node* new_node = (struct Node*) malloc(sizeof(struct Node)); 
-   new_node->numStored = new_data; 
-   new_node->next = head; 
+   struct Node* new_node = (struct Node*) malloc(sizeof(struct Node));
+   if(head != NULL)
+   {
+      temp = head;
+      while(temp->next != NULL)
+      {
+         temp = temp->next;
+      }
+      temp->next = new_node;
+   }
+   else
+   {
    head = new_node; 
+   }
 } 
 //Function to display each member of the linked list back to the user
 void Node::display() { 

@@ -13,9 +13,10 @@ public:
 	//Initialize for data storage
 	int numStored; 
 	struct Node *next;
+	struct Node *head = NULL;
+	struct Node *temp;
 	//Function prototypes
 	void insert(int newNum);
 	void display();
 	void delete_first_num();
 }; 
-struct Node* head = NULL;
